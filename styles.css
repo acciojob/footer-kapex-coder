@@ -1,1 +1,68 @@
 /* your code here */
+
+.content {
+	background: black;
+	color: white;
+	padding: 1rem;
+}
+
+.top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 2rem;
+}
+
+.logo-details {
+	font-size: 2rem;
+}
+
+.media-icons {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
+
+.media-icons svg {
+	width: 2rem;
+	height: 2rem;
+}
+
+.link-boxes {
+	display: flex;
+	justify-content: space-between;
+}
+
+.link-boxes h2 {
+	font-size: 1rem;
+	position: relative;
+}
+
+.link-boxes h2::after {
+	content: "";
+	width: 2rem;
+	border-bottom: 1px solid white;
+	position: absolute;
+	left: 0;
+	bottom: -6px;
+}
+
+.link-boxes ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.link-boxes ul a {
+	color: white;
+	text-decoration: none;
+}
+
+
+.bottom-details {
+	background: grey;
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+}
+
+
